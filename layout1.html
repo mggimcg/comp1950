@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!--maggie mcgee, comp 1950 - final group assignment -->
+<html>
+    <head>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
+        <title>proto layout</title>
+        <meta charset="UTF-8">
+            <meta name="description" content="bcit comp 1950 alternate page design">
+                <meta name="author" content="Maggie McGee">
+                    <!-- add your name here as you edit anything :)-->
+                    <!--[if lt IE 9]>
+                    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+                    <![endif]-->
+                    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+                    </head>
+                    <style>	
+
+/*i can do this as an external page later if you guys prefer - this way is better for quick edits i think. 
+					also: the colors are sourced from the image ryan posted on github. */
+
+header{position:fixed; /*this is a version with a sticky header and footer, we can change this if you don't like the style!*/
+	   background-color:#919EAE;
+       text-align:center;
+	   float:left;
+	   left:0;
+	   width:100%;
+	   height:150px;
+	   font-family:arial,sans-serif;
+	   font-size:20px;
+	   z-index:100;  
+	   top:0;
+  
+}
+
+   body{width:100%;
+	 
+	background-color:#919EAE;
+	font-size:90%;
+	font-family:arial,sans-serif;
+	padding:0;
+	min-width:600px;}
+
+	h1, h2 {
+		margin:.8em 0 .2em 0;
+		padding:0;
+		text-align:center;
+		
+}
+
+footer {position:relative;
+	clear:both;
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	background-color:#919EAE;
+	z-index:100;
+	bottom:-180px;/*to keep the footer sticky*/
+	left:0;
+}	
+	
+footer p {padding:.6em 16px;
+		font-family:arial,sans-serif;
+		text-align:center;
+		font-size:12px;
+	    color:#F2F0F3;	}
+
+main{padding-top:30px;}
+
+
+#leftcol{position:relative;  /* just FYI: this one is a little deceptively named, as it is also a kind of wrapper*/
+	top:150px;
+	clear:both;
+	float:left;
+	width:100%;			
+	overflow:hidden;		
+	background:#DFDDE8;	
+		
+
+}
+
+#centercol{
+	float:left;
+	width:200%;
+	position:relative;
+	left:200px;
+	background:#F2F0F3; 
+}
+
+#rightcol{
+	float:left;
+	width:100%;
+	position:relative;
+	left:50%;
+	margin-left:-400px;
+	background:#DFDDE8;}
+
+}
+#col1 {
+	width:100%;
+	overflow:hidden;
+}
+	
+#col1wrap {
+		float:right;
+		width:50%;
+		position:relative;
+		right:100%;}
+
+#col1pad { margin:0 15px 0 415px;
+		   overflow:hidden;}
+		
+#col2 {
+		float:left;
+		width:170px;
+		position:relative;
+		margin-left:-50%;
+		left:215px;
+		overflow:hidden;}
+			
+#col3 {
+	
+	width:170px;
+	position:relative;
+	left:14px;
+	overflow:hidden;}
+
+	
+
+</style>
+                    <body>
+                        <header>
+                            <h1>bcit comp 1950 | layout one</h1>
+                            
+                        </header>
+                        <div id="leftcol">
+                            <div id="centercol">
+                                <div id="rightcol">
+                                    <div id="col1wrap">
+                                        <div id="col1pad">
+                                            <div id="col1">
+                                                <!--column 1-->
+												<h2>column 1: central content</h2>
+                                                <main>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</main>
+                                                <!--column 1 end-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--column 2-->
+                                    <div id="col2">
+                                        <h2>column 2: quizzes?</h2>
+                                        <aside>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                                            <br>
+                                             <br>
+                                                </aside>
+                                            </div>
+                                            <!--column 2 end-->
+                                            <!--column 3 start-->
+                                            <div id="col3">
+												<h2> column 3: lectures?</h2>
+                                                <p>
+                                                    <ol>
+                                                        <li>lecture one</li>
+                                                        <li>lecture two</li>
+                                                        <li>lecture three</li>
+                                                        <li>lecture four</li>
+                                                        <li>lecture five</li>
+                                                        <li>lecture six</li>
+                                                        <li>lecture seven</li>
+                                                        <li>lecture eight</li>
+                                                        <li>lecture nine</li>
+                                                        <li>lecture ten</li>
+                                                        <li>lecture eleven</li>
+                                                        <li>lecture twelve</li>
+                                                    </ol>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <footer><p>bcit comp 1950| maggie mcgee, ryan belandres, svena yu.<p></footer>
+	
