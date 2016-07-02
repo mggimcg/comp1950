@@ -1,11 +1,4 @@
-                                 _    __   _____   __   
-                                    /' ) /'_ `\(  ___)/' _`\ 
-   ___    _     ___ ___   _ _      (_, |( (_) || (__  | ( ) |
- /'___) /'_`\ /' _ ` _ `\( '_`\      | | \__, ||___ `\| | | |
-( (___ ( (_) )| ( ) ( ) || (_) )     | |    | |( )_) || (_) |
-`\____)`\___/'(_) (_) (_)| ,__/'     (_)    (_)`\___/'`\___/'
-                         | |                                 
-                         (_)                                 
+comp 1950:                    
 group project 
-a 3 column layout w/ sticky header and footer
+this is a lil a 3 column layout w/ sticky header and footer
 good times
